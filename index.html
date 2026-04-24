@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iLLo - Gestão Inteligente para Clínicas e Laboratórios</title>
+    <meta name="description"
+        content="Simplifique a gestão da sua clínica com o iLLo. Automatize processos, otimize atendimentos e tenha total controle financeiro.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- Animate On Scroll -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container header-container">
+            <a href="#" class="logo" id="logoToTop">
+                <svg width="32" height="32" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M20 5L32 12V28L20 35L8 28V12L20 5Z" stroke="currentColor" stroke-width="3"
+                        stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M20 5V20L32 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    <path d="M20 20L8 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    <path d="M20 35V20" stroke="currentColor" stroke-width="3" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg>
+                <div class="logo-text">
+                    <span class="brand">iLLo</span>
+                    <span class="tagline">simplicidade e integração</span>
+                </div>
+            </a>
+
+            <nav class="nav">
+                <ul class="nav-list" id="navMenu">
+                    <li><a href="#funcionalidades" class="nav-link">Funcionalidades</a></li>
+                    <li><a href="#integracoes" class="nav-link">Integrações</a></li>
+                    <li><a href="#depoimentos" class="nav-link">Depoimentos</a></li>
+                    <li><a href="#contato" class="nav-link">Contato</a></li>
+                </ul>
+                <a href="#contato" class="btn btn-primary hide-mobile">Solicitar Demonstração</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section - Now 2 Columns -->
+        <section class="hero">
+            <div class="container hero-container">
+                <div class="hero-content" data-aos="fade-right">
+                    <span class="hero-badge">Software de Gestão em Saúde</span>
+                    <h1 class="hero-title">Simplifique a Gestão da sua Clínica com o iLLo</h1>
+                    <p class="hero-description">
+                        Automatize processos, otimize atendimentos e tenha total controle financeiro em uma plataforma
+                        completa.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#contato" class="btn btn-primary">Começar Agora</a>
+                        <a href="#funcionalidades" class="btn btn-outline">Ver Funcionalidades</a>
+                    </div>
+                </div>
+                <div class="hero-visual" data-aos="fade-left">
+                    <img src="assets/images/hero_bg.png" alt="iLLo Dashboard Preview">
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="funcionalidades" class="features">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <span class="section-tag">Recursos</span>
+                    <h2 class="section-title">Funcionalidades Principais</h2>
+                    <p class="section-subtitle">Tudo o que você precisa para uma gestão de excelência em um só lugar.
+                    </p>
+                </div>
+
+                <div class="features-grid">
+                    <div class="feature-card" data-aos="fade-up">
+                        <div class="feature-icon-wrapper"><i data-lucide="calendar"></i></div>
+                        <h3>Agendamento</h3>
+                        <p>Gerencie consultas e procedimentos de forma simples e eficiente.</p>
+                    </div>
+                    <div class="feature-card" data-aos="fade-up" data-aos-delay="50">
+                        <div class="feature-icon-wrapper"><i data-lucide="microscope"></i></div>
+                        <h3>Laboratório</h3>
+                        <p>Gerencie exames e resultados com agilidade e precisão.</p>
+                    </div>
+                    <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="feature-icon-wrapper"><i data-lucide="briefcase"></i></div>
+                        <h3>Medicina do Trabalho</h3>
+                        <p>Controle exames periódicos, ASO e relatório anual.</p>
+                    </div>
+                    <div class="feature-card" data-aos="fade-up" data-aos-delay="150">
+                        <div class="feature-icon-wrapper"><i data-lucide="package"></i></div>
+                        <h3>Estoque</h3>
+                        <p>Monitore insumos e materiais com controle total.</p>
+                    </div>
+                    <div class="feature-card" data-aos="fade-up">
+                        <div class="feature-icon-wrapper"><i data-lucide="file-text"></i></div>
+                        <h3>PEP - Prontuário</h3>
+                        <p>Prontuário Eletrônico seguro e acessível.</p>
+                    </div>
+                    <div class="feature-card" data-aos="fade-up" data-aos-delay="50">
+                        <div class="feature-icon-wrapper"><i data-lucide="credit-card"></i></div>
+                        <h3>Repasse Médico</h3>
+                        <p>Gerencie pagamentos e repasses de honorários.</p>
+                    </div>
+                    <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="feature-icon-wrapper"><i data-lucide="dollar-sign"></i></div>
+                        <h3>Faturamento</h3>
+                        <p>Automatize cobranças e mantenha as finanças sob controle.</p>
+                    </div>
+                    <div class="feature-card" data-aos="fade-up" data-aos-delay="150">
+                        <div class="feature-icon-wrapper"><i data-lucide="pie-chart"></i></div>
+                        <h3>Financeiro</h3>
+                        <p>Gestão integrada de receitas e despesas.</p>
+                    </div>
+                    <div class="feature-card" data-aos="fade-up">
+                        <div class="feature-icon-wrapper"><i data-lucide="building"></i></div>
+                        <h3>Convênios e Particulares</h3>
+                        <p>Controle detalhado de faturamento por paciente.</p>
+                    </div>
+                    <div class="feature-card" data-aos="fade-up" data-aos-delay="50">
+                        <div class="feature-icon-wrapper"><i data-lucide="clipboard-list"></i></div>
+                        <h3>Laudos Diagnósticos</h3>
+                        <p>Emita e gerencie laudos com rapidez e eficiência.</p>
+                    </div>
+                    <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="feature-icon-wrapper"><i data-lucide="clock"></i></div>
+                        <h3>Tratamento de Sessões</h3>
+                        <p>Gerencie sessões de fisioterapia e outros tratamentos.</p>
+                    </div>
+                    <div class="feature-card" data-aos="fade-up" data-aos-delay="150">
+                        <div class="feature-icon-wrapper"><i data-lucide="bell"></i></div>
+                        <h3>Painel de Chamada</h3>
+                        <p>Sistema de chamada de senhas integrado.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Integrations Section -->
+        <section id="integracoes" class="integrations">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <span class="section-tag">Integrações</span>
+                    <h2 class="section-title">O iLLo se integra ao seu fluxo</h2>
+                    <p class="section-subtitle">Conectividade com os principais laboratórios e serviços.</p>
+                </div>
+
+                <div class="integrations-grid">
+                    <div class="int-card" data-aos="zoom-in">
+                        <div class="int-logo">DB</div>
+                        <h4>Laboratório DB</h4>
+                    </div>
+                    <div class="int-card" data-aos="zoom-in" data-aos-delay="50">
+                        <div class="int-logo">AL</div>
+                        <h4>Laboratório Álvaro</h4>
+                    </div>
+                    <div class="int-card" data-aos="zoom-in" data-aos-delay="100">
+                        <div class="int-logo">GP</div>
+                        <h4>GregPAY</h4>
+                    </div>
+                    <div class="int-card" data-aos="zoom-in" data-aos-delay="150">
+                        <div class="int-logo">NF</div>
+                        <h4>Nota Fiscal</h4>
+                    </div>
+                    <div class="int-card" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="int-logo">MZ</div>
+                        <h4>BOT MegaZAP</h4>
+                    </div>
+                    <div class="int-card" data-aos="zoom-in" data-aos-delay="250">
+                        <div class="int-logo">XML</div>
+                        <h4>EAN / XML</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials -->
+        <section id="depoimentos" class="testimonials">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <h2 class="section-title">O que nossos clientes dizem</h2>
+                </div>
+
+                <div class="testimonials-grid">
+                    <div class="testi-card" data-aos="fade-up">
+                        <p>"O iLLo transformou a gestão da nossa clínica. Mais organização e menos papelada!"</p>
+                        <div class="testi-author">
+                            <div class="testi-avatar">C</div>
+                            <strong>Clínica CIAME</strong>
+                        </div>
+                    </div>
+                    <div class="testi-card" data-aos="fade-up" data-aos-delay="100">
+                        <p>"Conseguimos reduzir o tempo de espera e aumentar a satisfação dos pacientes."</p>
+                        <div class="testi-author">
+                            <div class="testi-avatar">CM</div>
+                            <strong>Centro Médico do Trabalhador</strong>
+                        </div>
+                    </div>
+                    <div class="testi-card" data-aos="fade-up" data-aos-delay="200">
+                        <p>"O módulo financeiro nos deu o controle que sempre buscamos."</p>
+                        <div class="testi-author">
+                            <div class="testi-avatar">U</div>
+                            <strong>UniASO</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Clients Section -->
+        <section id="clientes" class="clients">
+            <div class="container">
+                <div class="clients-grid" data-aos="fade-up">
+                    <h3
+                        style="margin-bottom: 2rem; color: var(--text-muted); font-size: 1.1rem; text-transform: uppercase; letter-spacing: 2px;">
+                        Alguns de nossos Clientes</h3>
+                    <img src="assets/images/image.png" alt="Logos dos Clientes" class="clients-full-img">
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contato" class="contact">
+            <div class="container contact-container">
+                <div class="contact-info" data-aos="fade-right">
+                    <h2 class="section-title">Pronto para otimizar sua clínica?</h2>
+                    <p style="margin-bottom: 2rem;">Entre em contato e solicite uma demonstração gratuita.</p>
+                    <ul style="list-style: none;">
+                        <li style="margin-bottom: 1rem;"><i data-lucide="mail"></i> contato@illo.app.br</li>
+                        <li style="margin-bottom: 1rem;"><i data-lucide="phone"></i> (79) 99999-9999</li>
+                    </ul>
+                </div>
+
+                <div class="contact-form-card" data-aos="fade-left">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Nome</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="whatsapp">WhatsApp</label>
+                            <input type="tel" id="whatsapp" name="whatsapp" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mensagem</label>
+                            <textarea id="message" name="message" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <a href="#" class="footer-logo">iLLo</a>
+                <p>Tecnologia para a gestão inteligente da saúde.</p>
+            </div>
+            <div class="footer-nav">
+                <h4>Produto</h4>
+                <ul>
+                    <li><a href="#funcionalidades">Funcionalidades</a></li>
+                    <li><a href="#integracoes">Integrações</a></li>
+                </ul>
+            </div>
+            <div class="footer-nav">
+                <h4>Suporte</h4>
+                <ul>
+                    <li><a href="#">Ajuda</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </div>
+            <div class="footer-nav">
+                <h4>Legal</h4>
+                <ul>
+                    <li><a href="#">Privacidade</a></li>
+                    <li><a href="#">Termos</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 iLLo - Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/5579999999999" class="whatsapp-float" target="_blank">
+        <i data-lucide="message-circle"></i>
+    </a>
+
+    <script src="main.js"></script>
+    <script>
+        lucide.createIcons();
+        AOS.init({ duration: 800, once: true });
+    </script>
+</body>
+
+</html>
